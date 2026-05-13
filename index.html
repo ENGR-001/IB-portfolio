@@ -1,0 +1,231 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Website</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+<!-- === HEADER === -->
+<header class="site-header">
+  <div class="container">
+    <div class="logo">
+      <img src="logo.png" alt="Ibrahim logo">
+    </div>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <nav class="navbar" id="navbar">
+      <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="form.html">Form</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- === HERO === -->
+<section id="home" class="hero">
+  <div class="container hero-content">
+    <div class="hero-text">
+      <h1>
+        Hi, <span class="hero-span">I'm Ibrahim.</span>
+        I Design Clean, Responsive Websites with HTML, CSS and JavaScript
+      </h1>
+
+      <p>
+        I focus on creating well-structured, responsive websites with modern layouts
+and clear user interfaces. My goal is to transform ideas into functional
+and user-friendly web experiences.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="form.html" class="btn btn-primary">Get in touch</a>
+        <a href="#services" class="btn btn-secondary">Learn More</a>
+      </div>
+    </div>
+
+    <div class="hero-image" >
+      <img class="reveal" src="ib.png" alt="Web design illustration">
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES === -->
+<section id="services" class="services">
+  <div class="container">
+    <h2 class="section-title">My Services</h2>
+
+    <div class="services-grid">
+        
+      <div class="card ">
+        <h3>Web Design</h3>
+        <p>Modern and responsive website layouts built with HTML, CSS and JavaScript.</p>
+      </div>
+
+      <div class="card ">
+        <h3>Form Design</h3>
+        <p>Well-structured contact, login and registration forms with clean layouts.</p>
+      </div>
+
+      <div class="card ">
+        <h3>Authentication UI</h3>
+        <p>Simple and clear login and signup interfaces focused on usability.</p>
+      </div>
+
+      <div class="card">
+        <h3>Responsive Layouts</h3>
+        <p>Web layouts that adapt smoothly to mobile, tablet and desktop screens.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== TECHNOLOGIES ===== -->
+<section class="tech">
+  <div class="container">
+    <h2 class="section-title">Technologies I Use</h2>
+
+    <div class="tech-container">
+      <div class="tech-card">
+        <img src="html.png" alt="HTML logo" class="tech-img">
+        <p>HTML</p>
+      </div>
+
+      <div class="tech-card">
+        <img src="css.png" alt="CSS logo" class="tech-img">
+        <p>CSS</p>
+      </div>
+      
+      <div class="tech-card">
+          <img src="js.png" alt="JS logo" class="tech-img">
+          <p>JavaScript</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- === PROJECTS ==== -->
+<section id="projects" class="projects">
+  <div class="container">
+    <h2 class="section-title">My Projects</h2>
+      <div class="project-grid">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Responsive portfolio built with HTML, CSS and JavaScript.</p>
+        <span class="project-tech">HTML • CSS • JavaScript</span>
+        <a href="portfolio-project.html" class="btn btn-primary">View Project details</a>
+      </div>
+    
+      <div class="project-card">
+        <h3>E-commerce Website</h3>
+        <p>A responsive e-commerce interface designed to display products in a clean and organized layout. The project focuses on structured product cards and user-friendly shopping interactions.</p>
+        <span class="project-tech">HTML • CSS • JavaScript</span>
+        <a href="e-commerce.html" class="btn btn-primary">View Project details</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Login Page UI</h3>
+        <p>A clean and responsive login interface designed for clarity and usability</p>
+        <span class="project-tech">HTML • CSS • JavaScript</span>
+        <a href="projects/portfolio-project.html" class="btn btn-primary">View Project details</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Signup & Registration Pages</h3>
+        <p>Structured registration forms with proper spacing and responsive design.</p>
+        <span class="project-tech">HTML • CSS • JavaScript</span>
+        <a href="projects/portfolio-project.html" class="btn btn-primary">View Project details</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Contact & Input Forms</h3>
+        <p>User-friendly contact forms designed for real website applications.</p>
+        <span class="project-tech">HTML • CSS • JavaScript</span>
+        <a href="projects/portfolio-project.html" class="btn btn-primary">View Project details</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- == DESIGN APPROACH === -->
+<section class="approach">
+  <div class="container">
+    <h2 class="section-title">My Design Approach</h2>
+    <p class="approach-text">
+      I design with the user in mind. Every project starts with proper HTML structure,
+      followed by clean and maintainable CSS. I focus on clarity, spacing, readability,
+      and responsive layouts to ensure a smooth user experience.
+    </p>
+  </div>
+</section>
+
+<!-- ==== FOOTER ===== -->
+<footer class="site-footer" id="contact">
+  <div class="container footer-content">
+
+    <div class="footer-brand">
+      <h3>About Me</h3>
+      <p>
+        I am a beginner front-end developer focused on building real-world projects
+using HTML, CSS and JavaScript. I enjoy creating clean, responsive and
+user-friendly web interfaces.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="form.html">Form</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p>Email:
+        <a href="mailto:khalilmuhammadmjy008@gmail.com">
+          khalilmuhammadmjy008@gmail.com
+        </a>
+      </p>
+      <p>Phone:
+        <a href="tel:+2349077741312">+234 907 774 1312</a>
+      </p>
+      <p>Location: Nigeria</p>
+    </div>
+    <!---social media--->
+    <div class="footer-social">
+      <div class="footer-media">
+        <ul class="social-media">
+          <li><a href="https://www.facebook.com/engr.ibrahimib.1"><img src="Facebook.png" alt="facebook" /></a></li>
+          <li><a href="https://wa.me/2349077741312"><img src="WhatsApp.png" alt="WhatsApp" /></a></li>
+          <li><a href="#"><img src="Instagram.png" alt="Instagram" /></a></li>
+          <li><a href="https://x.com/i/status/2007869660721795496"><img src="Twitter.png" alt="Twitter"></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> || All rights reversed </p>
+      </div>
+    </div>
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
+    
